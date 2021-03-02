@@ -20,8 +20,6 @@ public class Transforms2D extends JPanel {
                     RenderingHints.KEY_TEXT_ANTIALIASING,
                     RenderingHints.VALUE_TEXT_ANTIALIAS_ON));
 			g2.setStroke(new BasicStroke(2));
-			Paint paint = new GradientPaint(75,75,Color.white,95,95,Color.gray,true);
-			g2.setPaint(paint);
 
 			var N = 9;
 			
